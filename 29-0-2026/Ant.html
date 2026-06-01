@@ -8,87 +8,129 @@
     <style>
         body {
             background-color: rgb(240, 113, 134);
-            display: flex;
-            justify-content: center;
         }
 
         .head {
-            width: 400px;
-            /* margin-top: 30px;
-            margin-bottom: 30px; */
-            background: white;
+            margin: 30px auto;
+            width: 280px;
+            background-color: white;
             border-radius: 20px;
-            text-align: center;
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 
         }
 
-         img {
+        .img {
             border-radius: 20px 20px 0 0;
+            height: 150px;
+            width: 280px;
             position: relative;
         }
-       
-        .Text {
-            color: rgb(15, 14, 14);
-        }
 
-        .Follow {
-            display: flex;
-            justify-content: space-around;
-            margin: 10px;
-        
-        }
-
-        h3 {
-            color: rgb(40, 127, 161);
-            
-        }
-
-        button {
-            border-radius: 20px;
-            padding: 12px 80px;
-            background-color: yellow;
-        }
-
-        .Intro {
-            font-size: 18px;
-            color: black;
-            padding: 0 15px;
-        
-        }
-        .profile img{
-            margin-top: -50px;
+        .Icon {
+            height: 100px;
+            width: 100px;
             position: absolute;
+            top: 140px;
+            left: 630px;
+            border-radius: 50%;
+            box-shadow: 0 10px 10px rgb(151, 151, 151, 0.5);
         }
 
+        ul {
+            margin: 0 0 5px 200px;
+        }
+
+        li {
+            font-size: 8px;
+            margin-bottom: -5px;
+        }
+
+        .Text h2 {
+            font-size: 22px;
+            color: rgb(117, 116, 116);
+            padding-left: 60px;
+            margin-top: 50px;
+        }
+
+        .Text p {
+            color: grey;
+            margin-top: -10px;
+            font-size: 13px;
+            padding-left: 100px;
+        }
+
+        .mem {
+            display: flex;
+            justify-content: space-evenly;
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            margin-top: -10px;
+        }
+
+        .mem h3 {
+            color: rgb(4, 206, 206);
+            /* font-weight: 700; */
+            margin-bottom: 0;
+            margin-left: 12px;
+
+        }
+
+        .mem p {
+            color: gray;
+            margin-top: 0;
+            font-size: 13px;
+        }
+
+            button {
+                background-color: gold;
+                padding: 13px 100px;
+                margin-left: 20px;
+                /* border-style: none; */
+                border-radius: 20px;
+                /* font-weight: 600; */
+            }
+
+            .Intro {
+
+                font-size: 14px;
+                word-spacing: 2px;
+                text-align: left;
+                margin: 10px 12px;
+            }
     </style>
 </head>
 
 <body>
     <div class="head">
         <img src="https://www.greenpestsolutions.com/hs-fs/hubfs/Imported_Blog_Media/a-black-ant-resting-on-green-leaf-stockpack-adobe-stock-540x540_jpg.webp?width=540&name=a-black-ant-resting-on-green-leaf-stockpack-adobe-stock-540x540_jpg.webp"
-            alt="Ant" width=400px height="200px">
-        <div class="Profile">
-            <img src="c:\Users\APPLE\Downloads\happy-face.png" alt="Profile" width="100px" height="100px">
-        </div>
+            alt="Ant" class="img">
+
+        <img src="c:\Users\APPLE\Downloads\girl.jpeg" class="Icon">
+
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
         <div class="Text">
             <h2>Morgan Sweeney</h2>
             <p>Ant Collector</p>
-            <div class="Follow">
-                <div class="mem">
-                    <h3>12</h3>
-                    <p>Followers</p>
-                </div>
-                <div class="mem">
-                    <h3>1000</h3>
-                    <p>Following</p>
-                </div>
-            </div>
-            <button>Follow</button>
-            <p class="Intro">
-                Morgan has collected ants since they were six years old and now has many dozen ants but none in their
-                pants.
-            </p>
         </div>
+        <div class="mem">
+            <div>
+                <h3>12</h3>
+                <p>Followers</p>
+            </div>
+            <div>
+                <h3>1000</h3>
+                <p>Following</p>
+            </div>
+        </div>
+        <button>Follow</button>
+        <p class="Intro">
+            Morgan has collected ants since they were six years old and now has many dozen ants but none in their
+            pants.
+        </p>
     </div>
 
 </body>
