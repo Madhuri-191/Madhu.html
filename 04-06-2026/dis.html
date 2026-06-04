@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Dashboard</title>
+</head>
+<style>
+    /* display:block */
+    h1 {
+        display: block;
+        text-align: center;
+    }
+
+    /* display:inline-block */
+    .nav span {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 5px;
+        border: 1px solid black;
+    }
+
+    /* visibility:hidden */
+    .hidden {
+        visibility: hidden;
+    }
+
+    /* display:none */
+    .none {
+        display: none;
+    }
+
+    /* display:list-item */
+    .li {
+        display: list-item;
+        margin-left: 20px;
+    }
+
+    /* display:flex */
+    .subjects {
+        display: flex;
+        gap: 15px;
+    }
+
+    .card {
+        border: 1px solid black;
+        padding: 20px;
+        width: 120px;
+        text-align: center;
+    }
+
+    /* display:grid */
+    .grid-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .box {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* display:table */
+    table {
+        display: table;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    /* visibility: .hidden */
+    .Hidden-row {
+        visibility: hidden;
+    }
+
+    /* visibility:collapse */
+    .close {
+        visibility: collapse;
+    }
+
+    footer {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+
+    <h1>Student Dashboard</h1>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <span>Home</span>
+        <span>Courses</span>
+        <span>Results</span>
+        <span>Contact</span>
+    </div>
+
+    <!-- Hidden Messages -->
+    <p class="hidden">Exam Result Published</p>
+    <p class="none">Old Notification</p>
+
+    <!-- Skills List -->
+    <h2>Skills</h2>
+
+    <p class="li">HTML</p>
+    <p class="li">CSS</p>
+    <p class="li">JavaScript</p>
+
+    <!-- Flexbox Cards -->
+    <h2>Subjects</h2>
+    <div class="subjects">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+    </div>
+
+    <!-- Grid Boxes -->
+    <h2>Attendance</h2>
+    <div class="grid-box">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+
+    <!-- Table -->
+    <h2>Student Marks</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Madhuri</td>
+            <td>HTML</td>
+            <td>90</td>
+        </tr>
+        <tr class="close">
+            <td>Swathi</td>
+            <td>HTML</td>
+            <td>93</td>
+        </tr>
+        <tr class="Hidden-row">
+            <td>Valli</td>
+            <td>CSS</td>
+            <td>95</td>
+        </tr>
+    </table>
+
+    <footer>
+        © 2026 Student Dashboard
+    </footer>
+
+</body>
+
+</html>
