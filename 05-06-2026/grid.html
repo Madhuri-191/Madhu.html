@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Services Grid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 40px;
+        background:linear-gradient(pink,white)
+    }
+
+    .img {
+        display: flex;
+        gap: 50px;
+    }
+
+    /* GRID */
+    .Box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    /* FLEX */
+    .card {
+        background: white;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card img {
+        width: 100px;
+        margin-left: 80px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .card p {
+        color: gray;
+    }
+
+    .card a {
+        text-decoration: none;
+        color: blue;
+    }
+    .card :hover{
+        color: aqua;
+    }
+</style>
+
+<body>
+
+    <div class="Box">
+
+        <div class="card">
+            <div class="img">
+            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+            <a href="#"><i class="fa-solid fa-calendar"></i></a>
+            <a href="#"><i class="fa-solid fa-clock"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <h3>Booking Engine</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum provident aperiam vero reiciendis
+                repudiandae tempora cum perspiciatis iusto, amet natus.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLn45CcvupO5jiM2mP_G3gEp5j2XnBIzpCQ&s" alt="">
+            <h3>Order Management</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet assumenda quaerat odit mollitia adipisci
+                eveniet repellendus et illo, consectetur accusamus.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="card">
+            <a href="#"><i class="fa-solid fa-house"></i></a>
+            <h3>Channel Manager</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, dolorem vero asperiores molestiae
+                dolores itaque molestias. Asperiores excepturi libero ad.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="card">
+            <a href="#"><i class="fa-solid fa-hotel"></i></a>
+            <h3>Independent Hotels</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ullam nam, saepe quasi maxime modi
+                inventore delectus error cum aliquam.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUiGpNj3Q1-GOSMWfls9jlP5N114LbP2pMAQ&s" alt="">
+            <h3>Customer Management</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt aliquid rem hic id impedit est,
+                iste voluptatem totam incidunt!</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjKhrLjR2mJcsyVUoseYfLFCHTcvsAPmO-WA&s" alt="">
+            <h3>Auto Cancellation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus pariatur laudantium neque consequatur
+                dolore veritatis assumenda ducimus iure quas et.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
