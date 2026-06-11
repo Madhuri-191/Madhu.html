@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .header {
+        background: #1f2937;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        /* display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center; */
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    div nav {
+        margin-top: 50px;
+    }
+
+    nav :hover {
+        color: yellow;
+        text-decoration: underline;
+    }
+
+    .profile {
+        background: rgb(238, 204, 238);
+        display: flex;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .All {
+        /* display: flex; */
+        /* justify-content: space-around; */
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap: 80px;
+        margin-top: 20px;
+    }
+    .skill{
+        background-color: rgb(202, 191, 175);
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .skill i{
+        font-size: 50px;
+    }
+
+    .main {
+        background: rgb(245, 212, 219);
+        padding: 15px;
+    }
+
+    .Projects {
+        /* display: flex; */
+        /* justify-content: space-around; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .contact {
+        background: skyblue;
+        margin-top: -20px;
+        padding: 5x;
+    }
+
+    .cntct {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding: 30px;
+    }
+
+    button {
+        border-radius: 10px;
+        background-color: blueviolet;
+        padding: 10px 20px;
+        margin-top: 10px;
+
+    }
+
+    .footer {
+        background: #1f2937;
+        display: flex;
+        padding: 15px 50px;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+
+    }
+
+    .icons a {
+        font-size: 25px;
+        margin: 0 10px;
+        color: white;
+
+    }
+</style>
+
+<body>
+    <div class="header">
+        <h2>PORTIFOLIO</h2>
+        <div class="">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </div>
+    <div class="profile">
+        <img src="c:\Users\APPLE\Downloads\alexa.jpeg" alt="" width="150px" height="150px">
+        <div class="msg">
+            <h1>Hi I'm Alex</h1>
+            <h3>Fronted Developer</h3>
+            <p>I build responsive and user friendly websites using HTML,CSS,javascript and modern tools</p>
+            <button>Hire Me</button>
+        </div>
+    </div>
+    <h2>My Skills</h2>
+    <div class="All">
+        <div class="skill">
+             <i class="fa-brands fa-html5" style="color: rgb(148, 125, 43);"></i>
+            <p>HTML</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-brands fa-css" style="color: rgb(37, 24, 73);"></i>
+            <p>CSS</p>
+        </div>
+
+        <div class="skill">
+             <i class="fa-brands fa-js" style="color: rgb(255, 212, 59);"></i>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-brands fa-bootstrap" style="color: rgb(119, 46, 106);"></i>
+            <p>Bootstrap</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-brands fa-react"></i>
+            <p>React</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-brands fa-git-alt" style="color: rgb(99, 230, 190);"></i>
+            <p>Git</p>
+        </div>
+    </div>
+    <div class="main">
+        <h2>Projects</h2>
+        <div class="Projects">
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/1224339648/photo/portfolio-website-on-home-office-setup.jpg?s=612x612&w=0&k=20&c=QJ8wZPal7VHP5ZWH1nNwU8GbWunvq_Fk3-gvRmA7fWs="
+                    alt="Portfolio" width="200px" height="200px">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website built using HTML and CSS.</p>
+                <button>View Project</button>
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1HJqeqouUBH-7aZGBk69MnxIcUcET5__q9GpTh9BGMgxdiCRdTayI2Qw&s=10"
+                    alt="Dashboard" width="200px" height="200px">
+                <h3>Dashboard</h3>
+                <p>An admin dashboard with charts and analytics.</p>
+                <button>View Project</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images04.nicepage.com/feature/612016/ecommerce-websites.jpg" alt="E-Commerce"
+                    width="200px" height="200px">
+                <h3>E-Commerce Site</h3>
+                <p>A responsive e-commerce website using Bootstrap.</p>
+                <button>View Project</button>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <h2>CONTACT ME</h2>
+        <div class="cntct">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="meassage" placeholder="Your Message">
+            <button>Send Message</button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>© 2024 Alex Portfolio. All Rights Reserved.</p>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
