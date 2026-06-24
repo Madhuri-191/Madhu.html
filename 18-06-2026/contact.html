@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    .navbar {
+        height: 300px;
+        background-image: url(https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/about-title-image-1.jpg);
+        background-size: cover;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 50px;
+    }
+
+    .logo {
+        font-size: 45px;
+        font-family: cursive;
+        font-weight: bold;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #333;
+        margin: 0 20px;
+        letter-spacing: 3px;
+        font-size: 14px;
+        text-transform: uppercase;
+        position: relative;
+        left: 250px
+    }
+
+    nav a:hover {
+        color: #c48b8b;
+    }
+
+    .icons i {
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    .banner {
+        text-align: center;
+        /* padding: 100px 20px; */
+    }
+
+    .banner h1 {
+        font-size: 60px;
+        color: #4b3b3b;
+    }
+
+    .banner p {
+        color: gray;
+        margin-top: -35px;
+        margin-bottom: 30px;
+    }
+
+    .contact-box {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 60px;
+    }
+
+    .touch {
+        width: 550px;
+    }
+
+    .touch h2 {
+        font-size: 40px;
+        color: #4d3c3c;
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+
+    .touch p {
+        color: gray;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .touch input,
+    .touch textarea {
+        width: 100%;
+        padding: 18px;
+        margin-bottom: 20px;
+        border: 1px solid #eee;
+        font-size: 16px;
+    }
+
+    .touch textarea {
+        height: 140px;
+        resize: none;
+    }
+
+    .touch button {
+        width: 100%;
+        padding: 20px;
+        border: none;
+        background: #e9b8b8;
+        color: white;
+        letter-spacing: 4px;
+        cursor: pointer;
+    }
+
+    .touch button:hover {
+        background: #d89c9c;
+    }
+
+    .news {
+        height: 500px;
+        background: url("https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/home-parallax-1-1.jpg");
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .letter h1 {
+        color: white;
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    input {
+        width: 400px;
+        padding: 15px;
+        border: 1px solid white;
+        background: none;
+        border-right: none;
+    }
+
+    input::placeholder {
+        color: rgb(20, 20, 20);
+    }
+
+    button {
+        padding: 15px 40px;
+        border: none;
+        background: #f8f6f0;
+        cursor: pointer;
+        border-left: none;
+    }
+
+    footer {
+        background: #f7f3f3;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 80px;
+        gap: 40px;
+    }
+
+    footer h4 {
+        justify-content: space-between;
+        letter-spacing: 2px;
+    }
+
+    .z {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+    }
+
+    .footer-links a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 20px;
+    }
+</style>
+
+<body>
+    <header class="navbar">
+        <div class="main">
+            <div class="logo">
+                <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/logo.png" alt="">
+            </div>
+
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="shop.html">Shop</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/QodeInteractive/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/qodeinteractive/"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/QodeInteractive"><i class="fab fa-twitter"></i></a>
+                <a href="https://bridge155.qodeinteractive.com/cart/"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <section class="banner">
+            <h1>Contact us</h1>
+            <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris</p>
+        </section>
+
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-box">
+
+        <div class="map">
+            <iframe src="https://maps.google.com/maps?q=New%20York&t=&z=11&ie=UTF8&iwloc=&output=embed" width="550px"
+                height="600px">
+            </iframe>
+        </div>
+
+        <div class="touch">
+            <h2>Get in Touch</h2>
+
+            <p>
+                Mei invenire periculis ei, offendit mediocrem ne sea,<br>
+                eos suas elitr everti ea. Per vidit rebum quodsi id.<br>
+                Pericula interpre.
+            </p>
+            <input type="text" placeholder="Your full name">
+
+            <input type="email" placeholder="Email">
+
+            <textarea placeholder="Write Something"></textarea>
+
+            <button>SEND MESSAGE</button>
+
+        </div>
+
+    </section>
+    <section class="news">
+        <div class="letter">
+            <h1>Subscribe to Newsletter</h1>
+            <div class="mail">
+                <input type="Email" placeholder="E-mail Address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <h4>CUSTOMER SERVICE</h4>
+                <p>Help & Contact</p>
+                <p>Returns & Refunds</p>
+                <p>Online Stores</p>
+                <p>Terms and Conditions</p>
+            </div>
+
+            <div>
+                <h4>COMPANY</h4>
+                <p>About Us</p>
+                <p>Blog</p>
+                <p>Order Tracking</p>
+                <p>FAQs</p>
+                <p>Contact</p>
+                <p>Login</p>
+            </div>
+
+            <div>
+                <h4>SOCIAL MEDIA</h4>
+                <p>Twitter</p>
+                <p>Instagram</p>
+                <p>Tumblr</p>
+                <p>Pinterest</p>
+            </div>
+
+            <div>
+                <h4>ARCHIVE</h4>
+                <p>Clay</p>
+                <p>Design</p>
+                <p>New</p>
+                <p>Plaster</p>
+                <p>Vision</p>
+            </div>
+        </div>
+        <hr>
+        <div class="z">
+            <div>
+                <p>© Qode Interactive, All Rights Reserved</p>
+            </div>
+            <div>
+                <img src="https://bridge155.qodeinteractive.com/wp-content/uploads/2018/02/footer-bottom-image-1.png"
+                    alt="">
+            </div>
+            <div class="footer-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
