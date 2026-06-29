@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .a1 {
+        border: 1px solid black;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        background-color: orangered;
+        margin-left: 600px;
+        margin-top: 200px;
+    }
+
+    .a1:hover {
+        background-color: rgb(218, 26, 99);
+        transition-duration: 2s;
+        transform: translateX(200px);
+    }
+
+    .o {
+        perspective: 300px;
+    }
+
+    .a2 {
+        border: 1px solid;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(21, 255, 0);
+        margin-left: 600px;
+        margin-top: 200px;
+    }
+
+    .a2:hover {
+        background-color: blueviolet;
+        transition-duration: 2s;
+        transform: scaleX(1.5);
+    }
+
+    .a3 {
+        border: 1px solid;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(212, 0, 255);
+        margin-left: 600px;
+        margin-top: 200px;
+    }
+
+    .a3:hover {
+        background-color: aquamarine;
+        transition-duration: 2s;
+        transform: rotateX(360deg);
+    }
+
+    .a4 {
+        border: 1px solid;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(255, 8, 0);
+        margin-left: 600px;
+        margin-top: 200px;
+    }
+
+    .a4:hover {
+        background-color: antiquewhite;
+        transition-duration: 2s;
+        transform: skewX(30deg); 
+        /* transform: matrix(1,0.2,0.3,1,50,20); */
+        
+    }
+
+</style>
+
+<body>
+    <div class="o">
+        <div class="a1"></div>
+        <div class="a2"></div>
+        <div class="a3"></div>
+        <div class="a4"></div>
+    </div>
+</body>
+
+</html>
